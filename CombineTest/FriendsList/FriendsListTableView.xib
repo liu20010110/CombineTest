@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendsList" id="KGk-i7-Jjw" customClass="FriendsListTableView" customModule="CombineTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfa-Qd-ISQ">
+                        <rect key="frame" x="8" y="4" width="42" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="vy3-Go-lR0"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                            <backgroundConfiguration key="background" image="mappin.and.ellipse" catalog="system" strokeWidth="1" strokeOutset="-1">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </backgroundConfiguration>
+                        </buttonConfiguration>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESC-oO-aTE">
+                        <rect key="frame" x="62" y="4" width="84" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" id="Nld-HK-WFS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa2-DS-hgS">
+                        <rect key="frame" x="62" y="33" width="84" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wa2-DS-hgS" firstAttribute="top" secondItem="ESC-oO-aTE" secondAttribute="bottom" constant="8" symbolic="YES" id="3Yx-Tm-hAp"/>
+                    <constraint firstItem="wa2-DS-hgS" firstAttribute="width" secondItem="ESC-oO-aTE" secondAttribute="width" id="9pB-2L-Raq"/>
+                    <constraint firstItem="wa2-DS-hgS" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.25" id="AZu-Sr-HV4"/>
+                    <constraint firstItem="gfa-Qd-ISQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="E9Y-s8-da0"/>
+                    <constraint firstItem="ESC-oO-aTE" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.477273" id="Kqo-HT-htq"/>
+                    <constraint firstItem="ESC-oO-aTE" firstAttribute="leading" secondItem="gfa-Qd-ISQ" secondAttribute="trailing" constant="12" id="QKZ-8Q-tnO"/>
+                    <constraint firstItem="ESC-oO-aTE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Ubu-Gr-7G5"/>
+                    <constraint firstItem="gfa-Qd-ISQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WdZ-ye-bSV"/>
+                    <constraint firstItem="wa2-DS-hgS" firstAttribute="leading" secondItem="gfa-Qd-ISQ" secondAttribute="trailing" constant="12" id="bnJ-59-xxu"/>
+                    <constraint firstItem="gfa-Qd-ISQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="whR-9C-klj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="friendImage" destination="gfa-Qd-ISQ" id="jNC-n9-oS5"/>
+                <outlet property="friendName" destination="ESC-oO-aTE" id="fRX-yo-PRC"/>
+                <outlet property="type" destination="wa2-DS-hgS" id="VJB-tm-IQ2"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mappin.and.ellipse" catalog="system" width="117" height="128"/>
+    </resources>
+</document>

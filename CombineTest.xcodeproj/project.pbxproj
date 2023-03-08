@@ -7,23 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EFD05AF21DE4E4F025AE3D9 /* NoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167B620FCA998417759620B /* NoteData.swift */; };
+		2A8FEFADFAC287A931F3F745 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A84B16DE0D53695BCD314 /* awsconfiguration.json */; };
+		5B617A49FDB2B4B3788F9FFD /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD59496E4A1CAA5EB76FA6 /* AmplifyModels.swift */; };
+		8582F05F20611C47448B7E49 /* NoteData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199F2E312DEE293BEE37AAD /* NoteData+Schema.swift */; };
+		A618546A29715D7700508D70 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = A618546929715D7700508D70 /* TextFieldEffects */; };
+		A64E44412994D30D008EC6CE /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E44402994D30D008EC6CE /* LocalDatabase.swift */; };
+		A685B3232955D1BA006C0289 /* TAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685B3222955D1BA006C0289 /* TAlertView.swift */; };
 		A68EB2032940943100524CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EB2022940943100524CB8 /* AppDelegate.swift */; };
 		A68EB2052940943100524CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EB2042940943100524CB8 /* SceneDelegate.swift */; };
-		A68EB2072940943100524CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EB2062940943100524CB8 /* ViewController.swift */; };
-		A68EB20A2940943100524CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68EB2082940943100524CB8 /* Main.storyboard */; };
 		A68EB20C2940943300524CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68EB20B2940943300524CB8 /* Assets.xcassets */; };
 		A68EB20F2940943300524CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68EB20D2940943300524CB8 /* LaunchScreen.storyboard */; };
+		A6A394242980091C00E7E7EC /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A6A394222980091C00E7E7EC /* amplifyconfiguration.json */; };
+		A6A394252980091C00E7E7EC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A6A394232980091C00E7E7EC /* awsconfiguration.json */; };
+		A6A3942D2982767900E7E7EC /* RequestLocalAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3942B2982767900E7E7EC /* RequestLocalAuth.swift */; };
+		A6A3942E2982767900E7E7EC /* RequestLocalAuth.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3942C2982767900E7E7EC /* RequestLocalAuth.xib */; };
+		A6A3943129827E9300E7E7EC /* RequestWhenInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3942F29827E9300E7E7EC /* RequestWhenInUse.swift */; };
+		A6A3943229827E9300E7E7EC /* RequestWhenInUse.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3943029827E9300E7E7EC /* RequestWhenInUse.xib */; };
+		A6A39437298A8CDC00E7E7EC /* RequestAlways.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A39435298A8CDC00E7E7EC /* RequestAlways.swift */; };
+		A6A39438298A8CDC00E7E7EC /* RequestAlways.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A39436298A8CDC00E7E7EC /* RequestAlways.xib */; };
+		A6A3943C298AA27100E7E7EC /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3943A298AA27100E7E7EC /* PersonalInformation.swift */; };
+		A6A3943D298AA27100E7E7EC /* PersonalInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3943B298AA27100E7E7EC /* PersonalInformation.xib */; };
+		A6A39440298AA74D00E7E7EC /* PersonalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3943E298AA74D00E7E7EC /* PersonalTableViewCell.swift */; };
+		A6A39441298AA74D00E7E7EC /* PersonalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3943F298AA74D00E7E7EC /* PersonalTableViewCell.xib */; };
+		A6A39443298BA95800E7E7EC /* CommandBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A39442298BA95800E7E7EC /* CommandBase.swift */; };
+		A6A39447298BB8AA00E7E7EC /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A39446298BB8AA00E7E7EC /* UserPreferences.swift */; };
+		A6A3944B298CFC4B00E7E7EC /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A39449298CFC4A00E7E7EC /* UserName.swift */; };
+		A6A3944C298CFC4B00E7E7EC /* UserName.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3944A298CFC4A00E7E7EC /* UserName.xib */; };
+		A6A39450298D020700E7E7EC /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3944E298D020700E7E7EC /* Birthday.swift */; };
+		A6A39451298D020700E7E7EC /* Birthday.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3944F298D020700E7E7EC /* Birthday.xib */; };
+		A6A39466299399C900E7E7EC /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = A6A39465299399C900E7E7EC /* AWSAPIPlugin */; };
+		A6A39468299399C900E7E7EC /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = A6A39467299399C900E7E7EC /* AWSCognitoAuthPlugin */; };
+		A6A3946A299399C900E7E7EC /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = A6A39469299399C900E7E7EC /* AWSDataStorePlugin */; };
+		A6A3946C299399C900E7E7EC /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = A6A3946B299399C900E7E7EC /* AWSLocationGeoPlugin */; };
+		A6A3946E299399C900E7E7EC /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = A6A3946D299399C900E7E7EC /* AWSPluginsCore */; };
+		A6A39470299399C900E7E7EC /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = A6A3946F299399C900E7E7EC /* AWSS3StoragePlugin */; };
+		A6A39472299399C900E7E7EC /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = A6A39471299399C900E7E7EC /* Amplify */; };
+		A6AE6695295D582A001AD30A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6AE6694295D582A001AD30A /* GoogleService-Info.plist */; };
+		A6B9FD322966766400479947 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9FD302966766400479947 /* LogInViewController.swift */; };
+		A6B9FD332966766400479947 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B9FD312966766400479947 /* LogInViewController.xib */; };
+		A6C4FF58299B6346000A0949 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4FF56299B6346000A0949 /* FriendsList.swift */; };
+		A6C4FF59299B6346000A0949 /* FriendsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4FF57299B6346000A0949 /* FriendsList.xib */; };
+		A6C4FF5C299B63B9000A0949 /* FriendsListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4FF5A299B63B9000A0949 /* FriendsListTableView.swift */; };
+		A6C4FF5D299B63B9000A0949 /* FriendsListTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4FF5B299B63B9000A0949 /* FriendsListTableView.xib */; };
+		A6D04A29296C5DD100D6C864 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D04A28296C5DD100D6C864 /* CustomTextField.swift */; };
+		A6EAAAD12951C6100073DB01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EAAAD02951C60F0073DB01 /* CoreLocation.framework */; };
+		A6EAAAD62951C7140073DB01 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EAAAD42951C7140073DB01 /* MainVC.swift */; };
+		A6EAAAD72951C7140073DB01 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EAAAD52951C7140073DB01 /* MainVC.xib */; };
+		D4F4F1576AAD1082F19C18B3 /* Pods_CombineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCD7DB7935DA8DB0E3BD34B /* Pods_CombineTest.framework */; };
+		FA6477F56BE9109A32D3AF5B /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6880F7E29A8E6B626743DA4D /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1199F2E312DEE293BEE37AAD /* NoteData+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "NoteData+Schema.swift"; path = "amplify/generated/models/NoteData+Schema.swift"; sourceTree = "<group>"; };
+		1C9A84B16DE0D53695BCD314 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		30DD59496E4A1CAA5EB76FA6 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		650CA54D58B9C800A22D3C06 /* Pods-CombineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTest.release.xcconfig"; path = "Target Support Files/Pods-CombineTest/Pods-CombineTest.release.xcconfig"; sourceTree = "<group>"; };
+		6880F7E29A8E6B626743DA4D /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		A64E44402994D30D008EC6CE /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		A685B3222955D1BA006C0289 /* TAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAlertView.swift; sourceTree = "<group>"; };
 		A68EB1FF2940943100524CB8 /* CombineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68EB2022940943100524CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68EB2042940943100524CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A68EB2062940943100524CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A68EB2092940943100524CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A68EB20B2940943300524CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68EB20E2940943300524CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68EB2102940943300524CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A394222980091C00E7E7EC /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		A6A394232980091C00E7E7EC /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		A6A3942B2982767900E7E7EC /* RequestLocalAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLocalAuth.swift; sourceTree = "<group>"; };
+		A6A3942C2982767900E7E7EC /* RequestLocalAuth.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestLocalAuth.xib; sourceTree = "<group>"; };
+		A6A3942F29827E9300E7E7EC /* RequestWhenInUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestWhenInUse.swift; sourceTree = "<group>"; };
+		A6A3943029827E9300E7E7EC /* RequestWhenInUse.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestWhenInUse.xib; sourceTree = "<group>"; };
+		A6A39435298A8CDC00E7E7EC /* RequestAlways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAlways.swift; sourceTree = "<group>"; };
+		A6A39436298A8CDC00E7E7EC /* RequestAlways.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestAlways.xib; sourceTree = "<group>"; };
+		A6A3943A298AA27100E7E7EC /* PersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		A6A3943B298AA27100E7E7EC /* PersonalInformation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInformation.xib; sourceTree = "<group>"; };
+		A6A3943E298AA74D00E7E7EC /* PersonalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewCell.swift; sourceTree = "<group>"; };
+		A6A3943F298AA74D00E7E7EC /* PersonalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalTableViewCell.xib; sourceTree = "<group>"; };
+		A6A39442298BA95800E7E7EC /* CommandBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandBase.swift; sourceTree = "<group>"; };
+		A6A39446298BB8AA00E7E7EC /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		A6A39449298CFC4A00E7E7EC /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		A6A3944A298CFC4A00E7E7EC /* UserName.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserName.xib; sourceTree = "<group>"; };
+		A6A3944E298D020700E7E7EC /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		A6A3944F298D020700E7E7EC /* Birthday.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Birthday.xib; sourceTree = "<group>"; };
+		A6A394522990C25200E7E7EC /* CombineTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineTest.entitlements; sourceTree = "<group>"; };
+		A6AE6694295D582A001AD30A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6B9FD302966766400479947 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A6B9FD312966766400479947 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		A6C4FF56299B6346000A0949 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
+		A6C4FF57299B6346000A0949 /* FriendsList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsList.xib; sourceTree = "<group>"; };
+		A6C4FF5A299B63B9000A0949 /* FriendsListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableView.swift; sourceTree = "<group>"; };
+		A6C4FF5B299B63B9000A0949 /* FriendsListTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsListTableView.xib; sourceTree = "<group>"; };
+		A6D04A28296C5DD100D6C864 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A6EAAAD02951C60F0073DB01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6EAAAD42951C7140073DB01 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A6EAAAD52951C7140073DB01 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		B167B620FCA998417759620B /* NoteData.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = NoteData.swift; path = amplify/generated/models/NoteData.swift; sourceTree = "<group>"; };
+		CCCD7DB7935DA8DB0E3BD34B /* Pods_CombineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27A56E5C1566AD7CEA88666 /* Pods-CombineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineTest.debug.xcconfig"; path = "Target Support Files/Pods-CombineTest/Pods-CombineTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +112,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A3946C299399C900E7E7EC /* AWSLocationGeoPlugin in Frameworks */,
+				A6A39472299399C900E7E7EC /* Amplify in Frameworks */,
+				A6A39466299399C900E7E7EC /* AWSAPIPlugin in Frameworks */,
+				A6A39468299399C900E7E7EC /* AWSCognitoAuthPlugin in Frameworks */,
+				A6EAAAD12951C6100073DB01 /* CoreLocation.framework in Frameworks */,
+				A6A3946E299399C900E7E7EC /* AWSPluginsCore in Frameworks */,
+				A6A3946A299399C900E7E7EC /* AWSDataStorePlugin in Frameworks */,
+				A618546A29715D7700508D70 /* TextFieldEffects in Frameworks */,
+				D4F4F1576AAD1082F19C18B3 /* Pods_CombineTest.framework in Frameworks */,
+				A6A39470299399C900E7E7EC /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EB091321EB4AE6A18F7BAF3 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A6A394222980091C00E7E7EC /* amplifyconfiguration.json */,
+				A6A394232980091C00E7E7EC /* awsconfiguration.json */,
+				1C9A84B16DE0D53695BCD314 /* awsconfiguration.json */,
+				6880F7E29A8E6B626743DA4D /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		6DBA8B9BC87E3D5B354B8440 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				30DD59496E4A1CAA5EB76FA6 /* AmplifyModels.swift */,
+				1199F2E312DEE293BEE37AAD /* NoteData+Schema.swift */,
+				B167B620FCA998417759620B /* NoteData.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		967252C6E44204BB3577C61F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E27A56E5C1566AD7CEA88666 /* Pods-CombineTest.debug.xcconfig */,
+				650CA54D58B9C800A22D3C06 /* Pods-CombineTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A68EB1F62940943100524CB8 = {
 			isa = PBXGroup;
 			children = (
 				A68EB2012940943100524CB8 /* CombineTest */,
 				A68EB2002940943100524CB8 /* Products */,
+				A6EAAACF2951C60F0073DB01 /* Frameworks */,
+				967252C6E44204BB3577C61F /* Pods */,
+				3EB091321EB4AE6A18F7BAF3 /* AmplifyConfig */,
+				6DBA8B9BC87E3D5B354B8440 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +181,123 @@
 		A68EB2012940943100524CB8 /* CombineTest */ = {
 			isa = PBXGroup;
 			children = (
+				A6A394522990C25200E7E7EC /* CombineTest.entitlements */,
+				A6C4FF55299B631E000A0949 /* FriendsList */,
+				A6A3944D298D01E500E7E7EC /* Birthday */,
+				A6A39448298CFC1A00E7E7EC /* UserName */,
+				A6A39439298A9B1200E7E7EC /* PersonalInformation */,
+				A6A39434298A8CAC00E7E7EC /* RequestAlways */,
+				A6A3943329827E9D00E7E7EC /* RequestWhenInUse */,
+				A6A3942A2982760400E7E7EC /* RequestLocalAuthentication */,
+				A6B9FD2F2966761200479947 /* LogInViewController */,
+				A6EAAAD22951C6E10073DB01 /* MainVC */,
+				A6D04A28296C5DD100D6C864 /* CustomTextField.swift */,
+				A64E44402994D30D008EC6CE /* LocalDatabase.swift */,
+				A685B3222955D1BA006C0289 /* TAlertView.swift */,
+				A6A39446298BB8AA00E7E7EC /* UserPreferences.swift */,
+				A6A39442298BA95800E7E7EC /* CommandBase.swift */,
 				A68EB2022940943100524CB8 /* AppDelegate.swift */,
 				A68EB2042940943100524CB8 /* SceneDelegate.swift */,
-				A68EB2062940943100524CB8 /* ViewController.swift */,
-				A68EB2082940943100524CB8 /* Main.storyboard */,
 				A68EB20B2940943300524CB8 /* Assets.xcassets */,
 				A68EB20D2940943300524CB8 /* LaunchScreen.storyboard */,
 				A68EB2102940943300524CB8 /* Info.plist */,
+				A6AE6694295D582A001AD30A /* GoogleService-Info.plist */,
 			);
 			path = CombineTest;
+			sourceTree = "<group>";
+		};
+		A6A3942A2982760400E7E7EC /* RequestLocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3942B2982767900E7E7EC /* RequestLocalAuth.swift */,
+				A6A3942C2982767900E7E7EC /* RequestLocalAuth.xib */,
+			);
+			path = RequestLocalAuthentication;
+			sourceTree = "<group>";
+		};
+		A6A3943329827E9D00E7E7EC /* RequestWhenInUse */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3942F29827E9300E7E7EC /* RequestWhenInUse.swift */,
+				A6A3943029827E9300E7E7EC /* RequestWhenInUse.xib */,
+			);
+			path = RequestWhenInUse;
+			sourceTree = "<group>";
+		};
+		A6A39434298A8CAC00E7E7EC /* RequestAlways */ = {
+			isa = PBXGroup;
+			children = (
+				A6A39435298A8CDC00E7E7EC /* RequestAlways.swift */,
+				A6A39436298A8CDC00E7E7EC /* RequestAlways.xib */,
+			);
+			path = RequestAlways;
+			sourceTree = "<group>";
+		};
+		A6A39439298A9B1200E7E7EC /* PersonalInformation */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3943A298AA27100E7E7EC /* PersonalInformation.swift */,
+				A6A3943B298AA27100E7E7EC /* PersonalInformation.xib */,
+				A6A3943E298AA74D00E7E7EC /* PersonalTableViewCell.swift */,
+				A6A3943F298AA74D00E7E7EC /* PersonalTableViewCell.xib */,
+			);
+			path = PersonalInformation;
+			sourceTree = "<group>";
+		};
+		A6A39448298CFC1A00E7E7EC /* UserName */ = {
+			isa = PBXGroup;
+			children = (
+				A6A39449298CFC4A00E7E7EC /* UserName.swift */,
+				A6A3944A298CFC4A00E7E7EC /* UserName.xib */,
+			);
+			path = UserName;
+			sourceTree = "<group>";
+		};
+		A6A3944D298D01E500E7E7EC /* Birthday */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3944E298D020700E7E7EC /* Birthday.swift */,
+				A6A3944F298D020700E7E7EC /* Birthday.xib */,
+			);
+			path = Birthday;
+			sourceTree = "<group>";
+		};
+		A6B9FD2F2966761200479947 /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9FD302966766400479947 /* LogInViewController.swift */,
+				A6B9FD312966766400479947 /* LogInViewController.xib */,
+			);
+			path = LogInViewController;
+			sourceTree = "<group>";
+		};
+		A6C4FF55299B631E000A0949 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4FF56299B6346000A0949 /* FriendsList.swift */,
+				A6C4FF57299B6346000A0949 /* FriendsList.xib */,
+				A6C4FF5A299B63B9000A0949 /* FriendsListTableView.swift */,
+				A6C4FF5B299B63B9000A0949 /* FriendsListTableView.xib */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		A6EAAACF2951C60F0073DB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EAAAD02951C60F0073DB01 /* CoreLocation.framework */,
+				CCCD7DB7935DA8DB0E3BD34B /* Pods_CombineTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EAAAD22951C6E10073DB01 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				A6EAAAD42951C7140073DB01 /* MainVC.swift */,
+				A6EAAAD52951C7140073DB01 /* MainVC.xib */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +307,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68EB2132940943300524CB8 /* Build configuration list for PBXNativeTarget "CombineTest" */;
 			buildPhases = (
+				DDBEFB66BA932BC091B170FF /* [CP] Check Pods Manifest.lock */,
 				A68EB1FB2940943100524CB8 /* Sources */,
 				A68EB1FC2940943100524CB8 /* Frameworks */,
 				A68EB1FD2940943100524CB8 /* Resources */,
+				C4258CD937992CA819F958DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CombineTest;
+			packageProductDependencies = (
+				A618546929715D7700508D70 /* TextFieldEffects */,
+				A6A39465299399C900E7E7EC /* AWSAPIPlugin */,
+				A6A39467299399C900E7E7EC /* AWSCognitoAuthPlugin */,
+				A6A39469299399C900E7E7EC /* AWSDataStorePlugin */,
+				A6A3946B299399C900E7E7EC /* AWSLocationGeoPlugin */,
+				A6A3946D299399C900E7E7EC /* AWSPluginsCore */,
+				A6A3946F299399C900E7E7EC /* AWSS3StoragePlugin */,
+				A6A39471299399C900E7E7EC /* Amplify */,
+			);
 			productName = CombineTest;
 			productReference = A68EB1FF2940943100524CB8 /* CombineTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +356,10 @@
 				Base,
 			);
 			mainGroup = A68EB1F62940943100524CB8;
+			packageReferences = (
+				A618546829715D7700508D70 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = A68EB2002940943100524CB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +374,103 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EAAAD72951C7140073DB01 /* MainVC.xib in Resources */,
 				A68EB20F2940943300524CB8 /* LaunchScreen.storyboard in Resources */,
+				A6AE6695295D582A001AD30A /* GoogleService-Info.plist in Resources */,
+				A6C4FF5D299B63B9000A0949 /* FriendsListTableView.xib in Resources */,
+				A6A3942E2982767900E7E7EC /* RequestLocalAuth.xib in Resources */,
+				A6A39451298D020700E7E7EC /* Birthday.xib in Resources */,
+				A6A3943D298AA27100E7E7EC /* PersonalInformation.xib in Resources */,
+				A6C4FF59299B6346000A0949 /* FriendsList.xib in Resources */,
+				A6A39441298AA74D00E7E7EC /* PersonalTableViewCell.xib in Resources */,
+				A6A39438298A8CDC00E7E7EC /* RequestAlways.xib in Resources */,
+				A6A394242980091C00E7E7EC /* amplifyconfiguration.json in Resources */,
 				A68EB20C2940943300524CB8 /* Assets.xcassets in Resources */,
-				A68EB20A2940943100524CB8 /* Main.storyboard in Resources */,
+				A6A3943229827E9300E7E7EC /* RequestWhenInUse.xib in Resources */,
+				A6A394252980091C00E7E7EC /* awsconfiguration.json in Resources */,
+				A6A3944C298CFC4B00E7E7EC /* UserName.xib in Resources */,
+				A6B9FD332966766400479947 /* LogInViewController.xib in Resources */,
+				2A8FEFADFAC287A931F3F745 /* awsconfiguration.json in Resources */,
+				FA6477F56BE9109A32D3AF5B /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4258CD937992CA819F958DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombineTest/Pods-CombineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBEFB66BA932BC091B170FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A68EB1FB2940943100524CB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68EB2072940943100524CB8 /* ViewController.swift in Sources */,
+				A6A39450298D020700E7E7EC /* Birthday.swift in Sources */,
+				A6A3943129827E9300E7E7EC /* RequestWhenInUse.swift in Sources */,
+				A6EAAAD62951C7140073DB01 /* MainVC.swift in Sources */,
+				A6A3944B298CFC4B00E7E7EC /* UserName.swift in Sources */,
+				A685B3232955D1BA006C0289 /* TAlertView.swift in Sources */,
+				A6A3943C298AA27100E7E7EC /* PersonalInformation.swift in Sources */,
+				A6B9FD322966766400479947 /* LogInViewController.swift in Sources */,
+				A6A3942D2982767900E7E7EC /* RequestLocalAuth.swift in Sources */,
+				A64E44412994D30D008EC6CE /* LocalDatabase.swift in Sources */,
 				A68EB2032940943100524CB8 /* AppDelegate.swift in Sources */,
+				A6A39437298A8CDC00E7E7EC /* RequestAlways.swift in Sources */,
+				A6C4FF58299B6346000A0949 /* FriendsList.swift in Sources */,
+				A6C4FF5C299B63B9000A0949 /* FriendsListTableView.swift in Sources */,
 				A68EB2052940943100524CB8 /* SceneDelegate.swift in Sources */,
+				A6D04A29296C5DD100D6C864 /* CustomTextField.swift in Sources */,
+				5B617A49FDB2B4B3788F9FFD /* AmplifyModels.swift in Sources */,
+				A6A39447298BB8AA00E7E7EC /* UserPreferences.swift in Sources */,
+				A6A39443298BA95800E7E7EC /* CommandBase.swift in Sources */,
+				A6A39440298AA74D00E7E7EC /* PersonalTableViewCell.swift in Sources */,
+				8582F05F20611C47448B7E49 /* NoteData+Schema.swift in Sources */,
+				0EFD05AF21DE4E4F025AE3D9 /* NoteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A68EB2082940943100524CB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A68EB2092940943100524CB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A68EB20D2940943300524CB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,19 +598,27 @@
 		};
 		A68EB2142940943300524CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27A56E5C1566AD7CEA88666 /* Pods-CombineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineTest/CombineTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombineTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "是否啟用FaceID";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Always Show";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "需要在背景取得位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show Location";
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,19 +634,27 @@
 		};
 		A68EB2152940943300524CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650CA54D58B9C800A22D3C06 /* Pods-CombineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineTest/CombineTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombineTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "是否啟用FaceID";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Always Show";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "需要在背景取得位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show Location";
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +690,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A618546829715D7700508D70 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A618546929715D7700508D70 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A618546829715D7700508D70 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+		A6A39465299399C900E7E7EC /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		A6A39467299399C900E7E7EC /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		A6A39469299399C900E7E7EC /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		A6A3946B299399C900E7E7EC /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSLocationGeoPlugin;
+		};
+		A6A3946D299399C900E7E7EC /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPluginsCore;
+		};
+		A6A3946F299399C900E7E7EC /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		A6A39471299399C900E7E7EC /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A39464299399C800E7E7EC /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A68EB1F72940943100524CB8 /* Project object */;
 }

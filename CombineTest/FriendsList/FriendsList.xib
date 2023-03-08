@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FriendsList" customModule="CombineTest" customModuleProvider="target">
+            <connections>
+                <outlet property="backMainVC" destination="ziW-oW-RUJ" id="BXH-T4-nvQ"/>
+                <outlet property="friendsLIst" destination="a9Y-bv-l68" id="ETs-AI-g9D"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="a9Y-bv-l68">
+                    <rect key="frame" x="0.0" y="89" width="375" height="578"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziW-oW-RUJ">
+                    <rect key="frame" x="0.0" y="33" width="52" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large" renderingMode="hierarchical-single" variableValue="1">
+                            <hierarchicalColors>
+                                <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="black"/>
+                    </state>
+                    <connections>
+                        <action selector="pop:" destination="-1" eventType="touchUpInside" id="fmg-Xc-c2P"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ziW-oW-RUJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="33" id="2ko-uP-y5F"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="a9Y-bv-l68" secondAttribute="bottom" id="GHr-8Y-PFG"/>
+                <constraint firstItem="ziW-oW-RUJ" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.0524738" id="NDu-Dj-tZr"/>
+                <constraint firstItem="a9Y-bv-l68" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.866197" id="UoB-Bx-H6h"/>
+                <constraint firstItem="ziW-oW-RUJ" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" multiplier="0.138667" id="Vbf-hG-hWg"/>
+                <constraint firstItem="a9Y-bv-l68" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Xnh-88-pw7"/>
+                <constraint firstItem="ziW-oW-RUJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Z79-DH-giw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="a9Y-bv-l68" secondAttribute="trailing" id="a0D-Wx-t7I"/>
+                <constraint firstItem="a9Y-bv-l68" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="s40-i0-g5h"/>
+            </constraints>
+            <point key="canvasLocation" x="52" y="20.239880059970016"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
